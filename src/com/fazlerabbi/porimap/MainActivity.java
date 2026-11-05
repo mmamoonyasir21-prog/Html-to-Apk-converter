@@ -18,10 +18,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-        webView = (WebView)findViewById(R.id.web);
-
+        webView = (WebView) findViewById(R.id.web);
 
         webView.setWebViewClient(new WebViewClient() {
             @Override
@@ -36,7 +33,7 @@ public class MainActivity extends Activity {
             }
         });
 
-webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDomStorageEnabled(true);
         webView.loadUrl("file:///android_asset/index.html");
     }
@@ -53,7 +50,6 @@ webView.getSettings().setJavaScriptEnabled(true);
                     }
                     return true;
             }
-
         }
         return super.onKeyDown(keyCode, event);
     }
