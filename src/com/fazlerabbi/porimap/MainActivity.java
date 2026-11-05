@@ -1,4 +1,4 @@
-package com.icon.app;
+package com.fazlerabbi.porimap;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
