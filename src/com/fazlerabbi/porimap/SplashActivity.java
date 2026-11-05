@@ -1,4 +1,4 @@
-package com.icon.app;
+package com.fazlerabbi.porimap;
 
 import android.app.Activity;
 import android.content.Intent;
