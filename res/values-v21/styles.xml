@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="@android:style/Theme.Light">
+    <!-- Base application theme with status bar completely hidden -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:windowBackground">@color/app_window_bg</item>
-        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="SplashTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
